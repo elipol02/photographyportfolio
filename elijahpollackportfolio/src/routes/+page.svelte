@@ -9,7 +9,7 @@
   let folders: FolderData[] = [];
   let files: FileData[] = [];
   let columns: FileData[][] = [];
-  let currentFolder = "photos/Landscapes";
+  let currentFolder = "photos";
   let scrollContainer: HTMLDivElement;
   //let sortingType = "l";
 
@@ -46,7 +46,7 @@
 
       // reorder DOM so picture folders stay together in rows
       // collumns based on screen size breakpoints. 3 collumns for desktop, 2 for tablet, 1 for mobile
-      const numColumns = window.innerWidth > 1024 ? 3 : window.innerWidth > 768 ? 2 : 1;
+      const numColumns = window.innerWidth > 768 ? 2 : 1;
 
       const numRows = Math.ceil(files.length / numColumns);
 

@@ -80,7 +80,7 @@
       Elijah Pollack
     </button>
 
-    <!-- GitHub Link -->
+    <!-- GitHub Link 
     <a
         href="https://github.com/elipol02/photographyportfolio"
         target="_blank"
@@ -98,7 +98,7 @@
                 d="M12 0C5.37 0 0 5.37 0 12a12 12 0 008.21 11.39c.6.11.82-.26.82-.58v-2.26c-3.34.73-4.04-1.61-4.04-1.61a3.18 3.18 0 00-1.33-1.75c-1.1-.75.08-.73.08-.73 1.2.08 1.83 1.23 1.83 1.23 1.08 1.83 2.83 1.3 3.52.99.11-.78.42-1.3.77-1.6-2.67-.31-5.47-1.34-5.47-5.96 0-1.32.47-2.41 1.23-3.26-.12-.31-.54-1.55.12-3.23 0 0 1-.32 3.3 1.23a11.52 11.52 0 016 0c2.3-1.55 3.3-1.23 3.3-1.23.66 1.68.24 2.92.12 3.23.76.85 1.23 1.94 1.23 3.26 0 4.63-2.8 5.65-5.47 5.96.43.37.82 1.1.82 2.22v3.3c0 .32.22.7.83.58A12 12 0 0024 12c0-6.63-5.37-12-12-12z"
             />
         </svg>
-    </a>
+    </a>-->
 
 
     <!-- Instagram Link -->
@@ -125,24 +125,24 @@
         </svg>
     </a>
 
-    <!-- Hamburger/close menu button -->
+    <!-- Hamburger/close menu button 
     <button
       class="p-2 rounded hover:bg-gray-100 border border-transparent"
       on:click={toggleNav}
       aria-label="Toggle Menu"
     >
       {#if isNavOpen}
-        <!-- Close icon -->
+        <!-- Close icon 
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
         </svg>
       {:else}
-        <!-- Hamburger menu icon -->
+        <!-- Hamburger menu icon 
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
         </svg>
       {/if}
-    </button>
+    </button>-->
 
   </nav>
 
