@@ -13,8 +13,8 @@ export interface FolderData {
   name: string;
 }
 
-const BASE_URL = `https://elijahpollackportfolio.sfo3.digitaloceanspaces.com`;
-const CDN_URL = `https://elijahpollackportfolio.sfo3.cdn.digitaloceanspaces.com`;
+const BASE_URL = `https://espphotography.nyc3.digitaloceanspaces.com`;
+const CDN_URL = `https://espphotography.nyc3.cdn.digitaloceanspaces.com`;
 
 /**
  * Fetches and parses the XML file listing from the DigitalOcean Space.
